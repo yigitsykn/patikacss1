@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" Content="Text/html" charset="UTF8">
+<title>index</title>
+<style>
+body{font-family:Arial;}
+nav{
+	background-color:red;
+	width:1000px;
+	margin:auto;
+}
+.list_ust{
+	float:left;
+	background-color:red;
+	height:58px;
+	border-right: 1px solid #df0000;
+	width:110px;
+	text-align:center;	
+	list-style:none;
+	font-weight:bold;
+}
+.list_ust ul{ 
+	display:none;
+	list-style:none;
+	float:left;
+	text-align:left;
+}
+.list_ust:hover ul{ 
+	display:block;
+}
+.menu_ust{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	margin-top:15px;
+}
+
+.list_ust:hover div{ 
+	background-color:#EBEBEB;
+}
+.arama{ 
+	float:left;
+	background-color:red;
+	color:#000; 
+	width:150px;
+	text-align:left;
+	padding-top:15px;
+	padding-left:10px;
+	height:43px;
+	width:114px;
+	list-style:none;
+}
+input{
+	width:90px;
+	border-width:0px;
+}
+img{vertical-align:bottom;}
+.listalt{
+	display:list-item;
+}
+
+.ustdiv{
+width:700px;
+height:150px;
+
+background:rgba(76, 175, 80, 0.5);
+text-align:center;
+padding-top:50px;
+}
+.ana{
+width:700px;
+height:200px;
+background-color:red;
+margin:auto;
+}
+</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="list_ust"><a class="menu_ust" href="index.html">Kampanyalar</a></li>
+			<li class="list_ust"><a class="menu_ust" href="cihaz.html">Cihazlar</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">Tarifeler</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">SüperNet</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">SüperNet ADSL&FİBER</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">Servisler</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">Yardım</a></li>
+			<li class="arama"><img src="img/search.png" width="18px" height="19px" /><input type="text"></input></li>
+		</ul>
+	</nav>
+	<div class="ana">
+		<div class="ustdiv">
+			<h1>Süper Kampanyalar</h1>
+		</div>
+<!-- yazılar -->
+		<section>
+			<article>
+				<h2>Kampanya - 1</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh velit, lobortis vitae lectus a, pulvinar gravida ex. Ut porttitor non diam sed dictum. Cras vestibulum sodales mi non placerat.</p>
+				<p>Curabitur ultrices cursus massa. Aliquam facilisis odio nec diam feugiat ornare. Suspendisse ac mollis odio, quis luctus arcu. Nulla et maximus ex. Nam eget mattis ante, in rhoncus ex.</p>
+				<ol>
+					<li>5 GB</li>
+					<li>250 SMS</li>
+					<li>500 DK</li>
+				</ol>
+				<img src="https://picsum.photos/seed/picsum/200/300" alt="Kampanya-1" title="Kampanya-1">
+				<hr>
+			</article>
+			<article>
+				<h2>Kampanya - 2</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh velit, lobortis vitae lectus a, pulvinar gravida ex. Ut porttitor non diam sed dictum. Cras vestibulum sodales mi non placerat.</p>
+				<p>Curabitur ultrices cursus massa. Aliquam facilisis odio nec diam feugiat ornare. Suspendisse ac mollis odio, quis luctus arcu. Nulla et maximus ex. Nam eget mattis ante, in rhoncus ex.</p>
+					<li>15 GB</li>
+					<li>250 SMS</li>
+					<li>500 DK</li>
+				</ul>
+				<img src="https://picsum.photos/seed/picsum/200/300" alt="Kampanya-2" title="Kampanya-2">
+		</section>
+<!-- yazılar son -->
+	</div>
+</body>
+</html>

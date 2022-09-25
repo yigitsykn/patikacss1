@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" Content="Text/html" charset="UTF8">
+<title>cihazlar</title>
+<style>
+body{font-family:Arial;}
+nav{
+	background-color:red;
+	width:1000px;
+	margin:auto;
+}
+.list_ust{
+	float:left;
+	background-color:red;
+	height:58px;
+	border-right: 1px solid #df0000;
+	width:110px;
+	text-align:center;	
+	list-style:none;
+	font-weight:bold;
+}
+.list_ust ul{ 
+	display:none;
+	list-style:none;
+	float:left;
+	text-align:left;
+}
+.list_ust:hover ul{ 
+	display:block;
+}
+.menu_ust{
+	text-decoration:none;
+	color:#fff;
+	display:block;
+	margin-top:15px;
+}
+
+.list_ust:hover div{ 
+	background-color:#EBEBEB;
+}
+.arama{ 
+	float:left;
+	background-color:red;
+	color:#000; 
+	width:150px;
+	text-align:left;
+	padding-top:15px;
+	padding-left:10px;
+	height:43px;
+	width:114px;
+	list-style:none;
+}
+input{
+	width:90px;
+	border-width:0px;
+}
+img{vertical-align:bottom;}
+.listalt{
+	display:list-item;
+}
+
+.ustdiv{
+width:700px;
+height:150px;
+
+background:rgba(76, 175, 80, 0.5);
+text-align:center;
+padding-top:50px;
+}
+.ana{
+width:700px;
+height:200px;
+background-color:red;
+margin:auto;
+}
+</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="list_ust"><a class="menu_ust" href="index.html">Kampanyalar</a></li>
+			<li class="list_ust"><a class="menu_ust" href="cihaz.html">Cihazlar</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">Tarifeler</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">SüperNet</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">SüperNet ADSL&FİBER</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">Servisler</a></li>
+			<li class="list_ust"><a class="menu_ust" href="#">Yardım</a></li>
+			<li class="arama"><img src="img/search.png" width="18px" height="19px" /><input type="text"></input></li>
+		</ul>
+	</nav>
+	<div class="ana">
+		<div class="ustdiv">
+			<h1>Yeni Cihazlar</h1>
+		</div>
+<!-- yazılar -->
+		<section>
+			<article>
+				<h2>Neil-soni AR5</h2>
+				<p>neil-soni <u>en yeni</u> modeli</p>
+				<ol>
+					<li>150 TL/ay</li>
+				</ol>
+				<img src="img/neil-soni-6wdRuK7bVTE-unsplash.jpg" alt="neil-soni" title="neil-soni" width="300">
+				<hr>
+			</article>
+			<article>
+				<h2>Rishabh Malhotra TE</h2>
+				<p>Ubuntu OS ile</p>
+					<li>70 TL/ay</li>
+				</ul>
+				<img src="img/rishabh-malhotra-83ypHTv6J2M-unsplash.jpg" alt="rishabh-malhotra" title="rishabh-malhotra" width="300">
+			</article>
+		</section>
+<!-- yazılar son -->
+	</div>
+</body>
+</html>
